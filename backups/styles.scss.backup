@@ -1,30 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600&display=swap');
-
-/* Arabic font support */
-body {
-  font-family: 'Noto Sans Arabic', 'Roboto', 'Helvetica Neue', sans-serif;
-}
-
-/* RTL support classes */
-.rtl {
-  direction: rtl;
-  text-align: right;
-}
-
-.ltr {
-  direction: ltr;
-  text-align: left;
-}
-
-/* Custom brand colors */
-:root {
-  --primary-color: #1976d2;
-  --accent-color: #ff9800;
-  --success-color: #4caf50;
-  --warning-color: #ff9800;
-  --danger-color: #f44336;
-}
-
 @use "sass:meta";
 // bs variables
 $grid-gutter-width: 1.5rem;
